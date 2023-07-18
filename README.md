@@ -1,0 +1,2 @@
+# learn-shell
+Shell scrpting
