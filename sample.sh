@@ -3,6 +3,10 @@ ls -ltr
 
 uname
 uname -a
-mkdir sbathina
-cd sbathina
+ls
+
+mkdir test
+cd test
 touch abc.txt 123.txt
+
+ls -ltr
