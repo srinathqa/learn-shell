@@ -16,74 +16,74 @@ ls -l
 ls -A
 ls -A -l
 
-Create Files
+#Create Files
 touch file.txt
 
-Copy Files
+#Copy Files
 cp file.txt new-file.txt
 
-Rename Files
+#Rename Files
 mv file.txt FILE.txt
 
-Create Directories
+#Create Directories
 mkdir demo
 
-Copy Directory
+#Copy Directory
 cp -r dir1 dir2
 
-Move files from one directory to another
+#Move files from one directory to another
 mv file dir
 
-Remove Directory
+#Remove Directory
 rm -rf demo
 
-List Content
+#List Content
 cat file
 
-View top and end lines
+#View top and end lines
 head file
 head -n 3 file
 tail file
 tail -n 3 file
 
-Search for a word and print the lines
+#Search for a word and print the lines
 grep word file-name
 
-Filter with colum
+#Filter with colum
 awk -F , '{print $1}' file.csv
 
-Editor (vim)
+#Editor (vim)
 
-Find the files
+#Find the files
 
 find / -name "passwd"
 
-Browse and Download
+#Browse and Download
 curl -L google.com
 curl -o file.zip http://domain.com/file.zip
 curl -O http://domain.com/file.zip
 
-Extract files
+#Extract files
 tar -xf sample.tar.gz
 unzip file.zip
 
-Check process running
+#Check process running
 ps -ef
 ps -ef | grep nginx
 
-User Management
+#User Management
 useradd demo
 
-Package Management
+#Package Management
 yum install nginx -y
 yum list all | grep nginx
 
-Service Management
+#Service Management
 systemctl start nginx
 systemctl enable nginx
 systemclt restart nginx
 
-Permissiong Management
+#Permissiong Management
 chmod u+x file.txt
 chown demo:demo file.txt
 chown demo:demo dir1 -R
