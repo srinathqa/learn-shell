@@ -1,7 +1,7 @@
 #!bin/bash
 
 #Declare array
-Movies=("RRR","DJ","Harry Poter","AVENGERS","Jurasic Park")
+Movies=("RRR" "DJ" "Harry Poter" "AVENGERS" "Jurasic Park")
 
 #Print array
 echo "First Movie in the array is  ${Movies[0]}"
