@@ -1,0 +1,12 @@
+#!bin/bash
+echo "All variables: $@"
+echo "Count number of arguments passed: $#" 
+echo "Script Name: $0"
+echo "Current working directory: $PWD"
+echo "Home directory of current user: $HOME"
+echo "Host Name: $HOSTNAME"
+echo "Which user is running current script: $USER"
+echo "Status code of previouly executed command: $?"
+echo "Process ID of current executing script: $$"
+sleep 60 &&
+echo "Process3ed ID of last executed background task: $!"
