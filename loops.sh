@@ -4,5 +4,5 @@
 
 for i in {1..20} 
 do 
-    echo "Print numbers $i
+    echo "Print numbers $i"
 done
