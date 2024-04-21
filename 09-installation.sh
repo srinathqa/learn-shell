@@ -28,7 +28,7 @@ then
     echo "Installation of git is ..... FAILED"
     exit 1
 else
-    echo "Installation of git is ..... SUCCESS
+    echo "Installation of git is ..... SUCCESS"
 if
 
 
