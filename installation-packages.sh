@@ -26,7 +26,7 @@ else
     echo -e "$Y You are good to go for instllation.... $N"
 fi
 
-for i in #@
+for i in $@
 do
     echo "package to install: $i"
     dnf list installed $i &>>$LOGFILE
@@ -38,4 +38,6 @@ do
         VALIDATE $? "Installation of $i"
     fi
 done
+
+
 
