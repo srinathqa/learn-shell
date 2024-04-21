@@ -9,7 +9,7 @@ G="\e[32m"
 N="\e[0m"
 
 VALIDATE(){
-    if [ $? ne 0 ] 
+    if [ $? -ne 0 ] 
     then
         echo -e "$2.... $R FAILIRE $N"
     else
@@ -17,7 +17,7 @@ VALIDATE(){
     fi
 }
 
-if [ $USERID ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo "Please run the scrip with root user"
     exit 1
