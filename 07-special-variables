@@ -9,4 +9,4 @@ echo "Which user is running current script: $USER"
 echo "Status code of previouly executed command: $?"
 echo "Process ID of current executing script: $$"
 sleep 60 &&
-echo "Process3ed ID of last executed background task: $!"
+echo "Process ID of last executed background task: $!"
